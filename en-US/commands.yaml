@@ -1,0 +1,27 @@
+ping:
+  latency: "⚡Ping: **{{ping}}ms**\n💬Latency: **{{latency}}ms**"
+  error: "⚠️**Error:** Could not get ping."
+
+prefix:
+  error: "⚠️**Error:** Could not change prefix."
+  set: "✅Prefix set to: **{{prefix}}**"
+  provide: "⚠️**Error:** Please provide a prefix."
+  too_long: "⚠️**Error:** The prefix can have a maximum of 10 characters."
+  only_guild: "⚠️**Error:** The prefix can only be changed in servers."
+  only_admin: "⚠️**Error:** The prefix can only be changed by admins."
+
+language:
+  only_guild: "⚠️**Error:** This command can only be used in servers."
+  only_admin: "⚠️**Error:** This command can only be used by admins."
+  invalid: "⚠️**Error:** Invalid language."
+  provide: "⚠️**Error:** Please provide a language."
+  set: "✅Language set to: **{{language}}**"
+  error: "⚠️**Error:** Could not change language."
+
+help:
+  embedTitle: "📖Help menu"
+  embedDescription: "Select a category below to view all of the commands in that category."
+
+errors:
+  disabled: "⚠️**Error:** This command is disabled."
+  only_guild: "⚠️**Error:** This command can only be used in servers."

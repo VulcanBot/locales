@@ -1,0 +1,27 @@
+ping:
+  latency: "⚡Ping: **{{ping}}ms**\n💬Latência: **{{latency}}ms**"
+  error: "⚠️**Erro:** Não foi possível obter o ping."
+
+prefix:
+  error: "⚠️**Erro:** Não foi possível alterar o prefixo."
+  set: "✅Prefixo alterado para: **{{prefix}}**"
+  provide: "⚠️**Erro:** Por favor, forneça um prefixo."
+  too_long: "⚠️**Erro:** O prefixo pode ter no máximo 10 caracteres."
+  only_guild: "⚠️**Erro:** O prefixo só pode ser alterado em servidores."
+  only_admin: "⚠️**Erro:** O prefixo só pode ser alterado por administradores do servidor."
+
+language:
+  only_guild: "⚠️**Erro:** Este comando só pode ser usado em servidores."
+  only_admin: "⚠️**Erro:** Este comando só pode ser usado por administradores do servidor."
+  invalid: "⚠️**Erro:** Língua inválida."
+  provide: "⚠️**Erro:** Por favor, forneça uma língua."
+  set: "✅Língua alterada para: **{{language}}**"
+  error: "⚠️**Erro:** Não foi possível alterar a língua."
+
+help:
+  embedTitle: "📖Menu de ajuda"
+  embedDescription: "Selecione uma categoria abaixo para ver todos os comandos nela."
+
+errors:
+  disabled: "⚠️**Erro:** Este comando está desativado."
+  only_guild: "⚠️**Erro:** Este comando só pode ser usado em servidores."
